@@ -1,5 +1,12 @@
 %include "io64.inc"
 
+; we can also define constants
+; they are not variables they are like macros they cannot be modified, and the don't need to be derefrenced
+; The advantage of using them is that:
+; - they are better for expresing the intent
+; - modification has to be done at just one place:w
+BufferSize equ 40
+
 section .data
 _byte db 10
 _word dw 20
