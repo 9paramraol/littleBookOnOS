@@ -4,7 +4,7 @@
 ; they are not variables they are like macros they cannot be modified, and the don't need to be derefrenced
 ; The advantage of using them is that:
 ; - they are better for expresing the intent
-; - modification has to be done at just one place:w
+; - modification has to be done at just one place
 BufferSize equ 40
 
 section .data
