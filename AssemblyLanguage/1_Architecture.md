@@ -27,13 +27,13 @@ The middle part is the bus, that interacts with Memory and I/O Devices.
 - There is another term called word (= 2 bytes). Similary there is double word, and quad word.
 
 ## Intel's architecture
-
+```
 IA-32e Mode
 |
 |----> 64-bid Mode = 64 bit OS and 64 bit programs
 |
 |----> Compatibility Mode = 16 and 32 bits programs run on 64-bit OS
-
+```
 - 16 64-bit general purpose registers.
 - 64 bit flags register RFLAGS.
 - 64 bit instruction poiter RIP:
